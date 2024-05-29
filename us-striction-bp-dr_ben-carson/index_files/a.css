@@ -1,0 +1,246 @@
+
+.randdate {
+    white-space: nowrap
+}
+
+#comments .coment_ava {
+    float: left;
+    margin-right: 15px
+}
+
+#comments .coment_ava img {
+    margin: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px
+}
+
+.name {
+    font-weight: bold
+}
+
+#comments .date {
+    font-weight: normal;
+    background: none;
+    display: inline
+}
+
+.pg {
+    position: relative;
+    padding-left: 65px;
+    margin-bottom: 33px
+}
+.base {
+    padding-top: 0 !important
+}
+
+.headline {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 48px;
+    margin: 20px 0
+}
+
+.subline {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px
+}
+
+input {
+    font-size: 14px
+}
+
+@media (max-width:1019px) {
+    .base {
+        padding-top: 0 !important
+    }
+
+    .base h1 {
+        margin-top: 0 !important
+    }
+}
+
+@media (max-width:767px) {
+    .headline {
+        font-size: 28px;
+        line-height: 38px
+    }
+
+    .subline {
+        font-size: 20px;
+        line-height: 30px
+    }
+}
+
+@media (max-width:480px) {
+    .header_line_2 {
+        display: none
+    }
+
+    .time {
+        margin-bottom: 0 !important
+    }
+}
+
+@media (max-width:360px) {
+    .door__sales {
+        top: 75px !important
+    }
+}
+
+@media (max-width:320px) {
+    .subline {
+        font-size: 17px;
+        line-height: 30px
+    }
+
+    .size-320 {
+        max-width: 111%;
+        margin-left: -15px
+    }
+
+    p {
+        font-size: 16px
+    }
+}
+
+.text-color {
+    color: #c00
+}
+
+.order_block,
+.order_block * {
+    box-sizing: border-box;
+    transition: .2s;
+    font-family: Arial, sans-serif !important
+}
+
+.order_block {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, .12);
+    border: 3px dashed #eaeaea;
+    border-radius: 0
+}
+
+.order_block .order_offer {
+    text-align: center
+}
+
+.order_block .order_offer img {
+    max-width: 100%;
+    width: 100%
+}
+
+.order_pre_form {
+    padding: 20px 20px 0 20px
+}
+
+.order_form_row {
+    margin-bottom: 10px;
+    text-align: left
+}
+
+.order_form {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px 20px 20px
+}
+
+.order_header {
+    margin: 12px 0 !important;
+    padding: 0 !important;
+    font-size: 18px
+}
+
+.order_form .order_form_row select,
+.order_form .order_form_row input {
+    width: 100% !important;
+    padding: 0 14px;
+    border: 2px solid #eaeaea;
+    font-size: 16px !important;
+    border-radius: 3px;
+    box-shadow: none !important;
+    margin: 0 !important;
+    color: #787171 !important;
+    box-sizing: border-box;
+    max-width: 100% !important
+}
+
+.order_form .order_form_row label {
+    font-size: 13px;
+    text-align: left;
+    font-weight: bold
+}
+
+.order_form .order_form_row input:active,
+.order_form .order_form_row input:focus {
+    outline: none;
+    border: 2px solid #cecece
+}
+
+.order_form .order_form_button {
+    box-shadow: 0 1px 0 0 #f5978e inset;
+    background: #f24537;
+    border-radius: 3px;
+    border: 1px solid #d02718;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    padding: 16px 0;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 5px;
+    text-decoration: none;
+    letter-spacing: .6px;
+    text-shadow: 0 1px 0 #810e05
+}
+
+.order_form .order_form_button:hover {
+    background: #c62d1f
+}
+
+.order_form .order_form_button:active {
+    position: relative;
+    top: 1px
+}
+
+#order_timer {
+    text-align: center
+}
+
+.order_timer_block {
+    line-height: 1;
+    font-weight: bold
+}
+
+.order_timer_block p {
+    font-size: 18px;
+    margin: 10px 0 !important;
+    padding: 0 !important
+}
+
+.order_timer_block .order_timer {
+    font-size: 21px
+}
+
+.time_remains {
+    color: red
+}
+
+@media screen and (max-width:350px) {
+    .pop-up-window {
+        max-width: 280px
+    }
+}
+
+.links a {
+    margin-right: 10px;
+}
