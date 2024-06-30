@@ -1,0 +1,162 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+/* Container for the black background section */
+.top-section {
+    background-color: black;
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center;
+}
+
+/* Container for the white background section */
+.container .bottom-section {
+    background-color: white;
+    color: black; /* Ensures text is visible on a white background */
+    padding: 20px 0; /* Add padding for spacing */
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+/*    max-width: 800px;  Adjust width as needed */
+}
+
+.container a {
+    text-decoration: none; /* Removes underlines from all links within the container */
+    color: inherit; /* Ensures link color matches the surrounding text color */
+    width: 100%;
+}
+
+.container a:hover {
+    text-decoration: underline; /* Optional: adds underline on hover if needed */
+}
+
+bg {
+    background-color: black;
+}
+
+
+h1 {
+    color: white;
+    font-size: 3em; /* Adjust size as needed */
+}
+
+img {
+    width: 100%;
+    max-width: 300px; /* Adjust size as needed */
+    cursor: pointer; /* Indicates clickable */
+     border: 3px solid #ccc; /* Adds a border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for scaling and shadow */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+img:hover {
+    transform: scale(1.05); /* Scales up the image by 5% */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15); /* Enhances the shadow on hover */
+}
+
+.cta-text {
+    font-size: 2.4em;
+    font-weight: bold;
+    color: red;
+    margin: 20px 0;
+}
+
+.button {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 20px;
+    font-size: 2em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+.button:hover {
+    background-color: darkred;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    background-color: #f8f8f8;
+    padding: 10px;
+    color: #666;
+}
+
+p {
+    font-size: 2em;
+}
+
+.red-text {
+    color: red; /* Class for making text red */
+}
+
+.link-text {
+    color: blue; /* Class for making text red */
+}
+
+.image-row {
+    display: flex; /* Enables flexbox layout which is ideal for placing items in a row */
+    justify-content: space-around; /* Distributes space around items for equal spacing */
+    align-items: center; /* Vertically aligns items in the middle */
+    padding: 20px 0; /* Adds vertical padding for spacing */
+    border: none;
+    box-shadow: none;
+    transform: none;
+}
+
+.gallery-image {
+    width: 30%; /* Sets each image to take up roughly one-third of the container width */
+    height: auto; /* Keeps the aspect ratio of the images */
+    border: none;
+    box-shadow: none;
+}
+
+.gallery-image:hover {
+        transform: none;
+    box-shadow: none;
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em; /* Smaller size for mobile */
+    }
+
+    .cta-text {
+        font-size: 1.2em; /* Adjusted for mobile */
+    }
+
+    .button {
+        font-size: 1.3em; /* Smaller button text */
+        padding: 8px 16px; /* Smaller padding */
+    }
+
+    .footer {
+        font-size: 0.7em; /* Smaller footer text */
+    }
+    
+    p {
+        font-size: 1.3em;
+    }
+    .image-row {
+        flex-direction: column; /* Stacks the images vertically */
+    }
+
+    .gallery-image {
+        width: 80%; /* Makes each image larger to fit the screen width appropriately */
+        margin: 10px auto; /* Adds top and bottom margin for spacing between images */
+    }
+}
